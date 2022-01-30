@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+		
+		<class name="com.crm.ComCast.OrgTest.CreateOrgTest" />
+			<methods>
+				<include name="createOrgWithIndustryTest" />
+			</methods>
+		<class name="com.crm.ComCast.contactTest.CreateContactTest" />
+			<methods>
+				<include name="createContactWithOrgTest" />
+			</methods>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
